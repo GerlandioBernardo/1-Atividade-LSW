@@ -1,0 +1,43 @@
+#geral, #sec{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:rgb(253, 134, 134);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+} 
+#input1, #input2{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+p{
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+::placeholder{
+    font-size: 18px;
+}
+#button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left:100px;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: rgb(119, 7, 7);
+    cursor: pointer;
+} 
+#res{
+    width:310px;
+    height:40px;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+}
